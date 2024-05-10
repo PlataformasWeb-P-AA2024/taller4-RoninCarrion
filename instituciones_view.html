@@ -42,11 +42,13 @@
                 console.log(data);
                 
                     
-                  $('#mensajeFinal').append(`<table> <tr> <th>AMIE</th> <th>INSTITUCIÓN</th> </tr>`);
+                $('#mensajeFinal').append(`<table> <tr> <th>AMIE</th>  <th>PARROQUIA</th>  <th>PROVINCIA</th> <th>INSTITUCIÓN</th> </tr>`);
                     for (var index = 0; index < data.rows.length; index++) {
                         var institucion = data.rows[index].doc.Nombre_Institucion;
                         var amie = data.rows[index].doc.AMIE;
-                        $('#mensajeFinal').append(`<tr> <td>${amie}</td> <td>${institucion}</td>`)
+                        var parroquia = data.rows[index].doc.Parroquia;
+                        var provincia = data.rows[index].doc.Provincia;
+                        $('#mensajeFinal').append(`<tr> <td>${amie}</td> <td>${parroquia}</td> <td>${provincia}</td> <td>${institucion}</td>`)
                         
                         
                     }
@@ -64,11 +66,13 @@
                 console.log(data);
                 
                     
-                  $('#mensajeFinal').append(`<table> <tr> <th>AMIE</th> <th>INSTITUCIÓN</th> </tr>`);
+                $('#mensajeFinal').append(`<table> <tr> <th>AMIE</th>  <th>PARROQUIA</th>  <th>PROVINCIA</th> <th>INSTITUCIÓN</th> </tr>`);
                     for (var index = 0; index < data.rows.length; index++) {
                         var institucion = data.rows[index].doc.Nombre_Institucion;
                         var amie = data.rows[index].doc.AMIE;
-                        $('#mensajeFinal').append(`<tr> <td>${amie}</td> <td>${institucion}</td>`)
+                        var parroquia = data.rows[index].doc.Parroquia;
+                        var provincia = data.rows[index].doc.Provincia;
+                        $('#mensajeFinal').append(`<tr> <td>${amie}</td> <td>${parroquia}</td> <td>${provincia}</td> <td>${institucion}</td>`)
                         
                         
                     }
@@ -87,11 +91,13 @@
                 console.log(data);
                 
                     
-                  $('#mensajeFinal').append(`<table> <tr> <th>AMIE</th> <th>INSTITUCIÓN</th> </tr>`);
+                $('#mensajeFinal').append(`<table> <tr> <th>AMIE</th>  <th>PARROQUIA</th>  <th>PROVINCIA</th> <th>INSTITUCIÓN</th> </tr>`);
                     for (var index = 0; index < data.rows.length; index++) {
                         var institucion = data.rows[index].doc.Nombre_Institucion;
                         var amie = data.rows[index].doc.AMIE;
-                        $('#mensajeFinal').append(`<tr> <td>${amie}</td> <td>${institucion}</td>`)
+                        var parroquia = data.rows[index].doc.Parroquia;
+                        var provincia = data.rows[index].doc.Provincia;
+                        $('#mensajeFinal').append(`<tr> <td>${amie}</td> <td>${parroquia}</td> <td>${provincia}</td> <td>${institucion}</td>`)
                         
                         
                     }
